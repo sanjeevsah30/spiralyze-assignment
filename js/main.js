@@ -1,11 +1,7 @@
-// Custom validation messages
-// Set msg on 'data-validation-msg' input attribute
-// -------------------------------------------------
+
 $(function () {
   var inputs = document.getElementsByTagName("input"),
-    // selectbox = document.getElementsByTagName('select'),
     inputsLen = inputs.length,
-    // selectLen = selectbox.length,
     input,
     inputMsg,
     inputValidationMsg,

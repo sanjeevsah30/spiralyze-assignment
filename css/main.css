@@ -465,6 +465,7 @@ input[type="email"].blur:required:invalid + label {
 }
 
 
+
 .understand-section .row button img {
   width: initial;
 }
