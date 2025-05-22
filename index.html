@@ -39,9 +39,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#"
-                    >Home</a
-                  >
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
@@ -82,90 +80,107 @@
                 as possible.
               </p>
             </div>
-            <!-- <a href="thankyou.html">Visit</a> -->
 
             <div class="col-lg-6">
               <form action="thankyou.html" class="form-container">
                 <fieldset>
-                <div class="mb-3">
-                  <h3>Contact Us</h3>
-                </div>
+                  <div class="mb-3">
+                    <h3>Contact Us</h3>
+                  </div>
 
-                <div class="mb-3">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group has-float-label">
-                        <input
-                          type="text"
-                          placeholder="First Name"
-                          class="form-control" name="first-name" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$" data-validation-msg="First Name must be 2 - 12 characters"
-                          id="first-name" required
-                        />
-                        <label for="first-name">First Name</label>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group has-float-label">
+                          <input
+                            type="text"
+                            placeholder="First Name"
+                            class="form-control"
+                            name="first-name"
+                            pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$"
+                            data-validation-msg="First Name must be 2 - 12 characters"
+                            id="first-name"
+                            required
+                          />
+                          <label for="first-name">First Name</label>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group has-float-label">
-                        <input
-                          type="text"
-                          placeholder="Last Name"
-                          class="form-control" name="last-name"
-                          id="last-name" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$" data-validation-msg="Last Name must be 2 - 12 characters" required
-                        />
-                        <label for="last-name">Last Name</label>
+                      <div class="col-lg-6">
+                        <div class="form-group has-float-label">
+                          <input
+                            type="text"
+                            placeholder="Last Name"
+                            class="form-control"
+                            name="last-name"
+                            id="last-name"
+                            pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$"
+                            data-validation-msg="Last Name must be 2 - 12 characters"
+                            required
+                          />
+                          <label for="last-name">Last Name</label>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="mb-3">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group has-float-label">
-                        <input
-                          type="text"
-                          placeholder="Business Email"
-                          class="form-control" name="business-email"
-                          id="business-email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" data-validation-msg="Please Enter valid email" required
-                        />
-                        <label for="business-email">Business Email</label>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group has-float-label">
+                          <input
+                            type="text"
+                            placeholder="Business Email"
+                            class="form-control"
+                            name="business-email"
+                            id="business-email"
+                            pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+                            data-validation-msg="Please Enter valid email"
+                            required
+                          />
+                          <label for="business-email">Business Email</label>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group has-float-label">
-                        <input
-                          type="text"
-                          placeholder="Company"
-                          class="form-control" name="company" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$" data-validation-msg="Company Name must be 2 - 12 characters"
-                          id="company" required
-                        />
-                        <label for="company">Company</label>
+                      <div class="col-lg-6">
+                        <div class="form-group has-float-label">
+                          <input
+                            type="text"
+                            placeholder="Company"
+                            class="form-control"
+                            name="company"
+                            pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,12}$"
+                            data-validation-msg="Company Name must be 2 - 12 characters"
+                            id="company"
+                            required
+                          />
+                          <label for="company">Company</label>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="mb-3">
-                  <div class="row">
-                    <div class="col-lg-12 position-relative">
-                      <select name="" id="country-selector" required>
-                        <option value="">Select Country</option>
-                        <option value="India">India</option>
-                        <option value="USA">USA</option>
-                        <option value="Germany">Germany</option>
-                      </select>
-                      <span class="custom-error">Please choose one option from Country</span>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="col-lg-12 position-relative">
+                        <select name="" id="country-selector" required>
+                          <option value="">Select Country</option>
+                          <option value="India">India</option>
+                          <option value="USA">USA</option>
+                          <option value="Germany">Germany</option>
+                        </select>
+                        <span class="custom-error"
+                          >Please choose one option from Country</span
+                        >
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-12">
-                    <button type="submit" class="submit-btn">
-                      <img src="img/send-icon.png" alt="send icon" />&nbsp;
-                      Submit
-                    </button>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <button type="submit" class="submit-btn">
+                        <img src="img/send-icon.png" alt="send icon" />&nbsp;
+                        Submit
+                      </button>
+                    </div>
                   </div>
-                </div>
                 </fieldset>
               </form>
             </div>
@@ -225,7 +240,7 @@
               relationships.
             </p>
 
-            <div class="hidden-xs hidden-sm visible-lg ">
+            <div class="hidden-xs hidden-sm visible-lg">
               <button class="success-rate">
                 92% Success Rate &nbsp;<img src="img/arrow-icon.png" alt="" />
               </button>
@@ -441,8 +456,7 @@
               </li>
               <li>
                 <h3>
-                  <img src="img/Checkmark-icon.png" alt="" />Needs
-                  Assessment
+                  <img src="img/Checkmark-icon.png" alt="" />Needs Assessment
                 </h3>
 
                 <p>
@@ -454,8 +468,7 @@
 
               <li>
                 <h3>
-                  <img src="img/Checkmark-icon.png" alt="" />Insurance
-                  Advocacy
+                  <img src="img/Checkmark-icon.png" alt="" />Insurance Advocacy
                 </h3>
 
                 <p>
@@ -466,8 +479,8 @@
 
               <li>
                 <h3>
-                  <img src="img/Checkmark-icon.png" alt="" />Treatment
-                  Planning & Placement
+                  <img src="img/Checkmark-icon.png" alt="" />Treatment Planning
+                  & Placement
                 </h3>
 
                 <p>
@@ -482,7 +495,12 @@
         <li>
           <div class="right-section">
             <a href="#">
-              <img src="img/play-btn.png" alt="" data-bs-toggle="modal" data-bs-target="#samplevideo" />
+              <img
+                src="img/play-btn.png"
+                alt=""
+                data-bs-toggle="modal"
+                data-bs-target="#samplevideo"
+              />
             </a>
           </div>
         </li>
@@ -509,51 +527,40 @@
       </div>
     </footer>
 
-
-<!-- Modal -->
-<div class="modal fade" id="samplevideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <video controls autoplay id="video1">
-          <source src="img/example-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="samplevideo"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls autoplay id="video1">
+              <source src="img/example-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
 
     <script src="js/vendor/jquery-3.6.1.min.js"></script>
     <script src="js/vendor/owl.carousel.min.js"></script>
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
 
     <script src="js/main.js"></script>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] ||
-          (b[l] = function () {
-            (b[l].q = b[l].q || []).push(arguments);
-          });
-        b[l].l = +new Date();
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = "//www.google-analytics.com/analytics.js";
-        r.parentNode.insertBefore(e, r);
-      })(window, document, "script", "ga");
-      ga("create", "UA-XXXXX-X", "auto");
-      ga("send", "pageview");
-    </script>
 
     <script>
       $(document).ready(function () {
