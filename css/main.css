@@ -534,6 +534,13 @@ input[type="email"].blur:required:invalid + label {
   list-style: none;
 }
 
+ .organize-list li a img {
+        opacity: 0;
+      }
+ .organize-list li a:hover img {
+        opacity: 1;
+      }
+
 .organize-section .organize-list li a {
   border: 2px solid #5bc8af;
   border-radius: 4px;
